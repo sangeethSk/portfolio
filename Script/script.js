@@ -4,6 +4,7 @@ const navLinks = document.querySelectorAll('header nav a');
 window.addEventListener('scroll', () => {
   section.forEach(sec => {
     let top = window.scrollY;
+    
     let offset = sec.offsetTop - 150;
     let height = sec.offsetHeight;
     let id = sec.getAttribute('id');
